@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="indexx.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="productOne">
+            <div class="icon">
+                <button style="background:none; border: none;"><i class="bi bi-trash3"></i></button>
+                <button id="heart-btn" ><img src="heart.svg"  width="20" height="20" ></button>
+            </div>
+            
+            <div class="image">
+                <img src="istockphoto-1303978937-170667a-removebg-preview.png" alt="Nike Jordan" />
+             </div>
+             <div class="down">
+                <div class="nike">
+                    <h2 class="nj">NIKE JORDON</h2>
+                    <P class="new">New Release</P>
+                    <p class="pr">$250</p>
+                </div>
+                <div class="addplus">
+                    <button style="background:none; border: none;" onclick="plus()"><i class="bi bi-plus-square-fill" ></i></button>
+                    <p style= "font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="figure">0</p>
+                    <button style="background:none; border: none;"><i class="bi bi-dash-square-fill" onclick="minus()"></i></button>
+
+                </div>
+             </div>
+
+        </div>
+        <div class="productTwo">
+            <div class="icon">
+                <button style="background:none; border: none;"><i class="bi bi-trash3"></i></button>
+                <button id="heart-btn2" onclick="Toggle1()"><i class="bi bi-heart-fill"></i></button>
+            </div>
+            
+            <div class="image">
+                <img src="istockphoto-1303978937-170667a-removebg-preview.png" alt="Nike Jordan" />
+             </div>
+             <div class="down">
+                <div class="nike">
+                    <h2 class="nj">NIKE JORDON</h2>
+                    <P class="new">New Release</P>
+                    <p class="pr">$500</p>
+                </div>
+                <div class="addplus">
+                    <button style="background:none; border: none;" onclick="pluss()"><i class="bi bi-plus-square-fill"></i></button>
+                    <p style= "font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="figuree">0</p>
+                    <button style="background:none; border: none;"><i class="bi bi-dash-square-fill" onclick="minuss()"></i></button>
+
+                </div>
+            
+            </div>
+        </div>
+        <div class="productThree">
+            <div class="icon">
+                <button style="background:none; border: none;"><i class="bi bi-trash3"></i></button>
+                <button id="heart-btn3" onclick="Toggle2()"><i class="bi bi-heart-fill"></i></button>
+            </div>
+            
+            <div class="image">
+                <img src="istockphoto-1303978937-170667a-removebg-preview.png" alt="Nike Jordan" />
+             </div>
+             <div class="down">
+                <div class="nike">
+                    <h2 class="nj">NIKE JORDON</h2>
+                    <P class="new">New Release</P>
+                    <p class="pr">$1000</p>
+                </div>
+                <div class="addplus">
+                    <button style="background:none; border: none;" onclick="plusss()"><i class="bi bi-plus-square-fill" ></i></button>
+                    <p style= "font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="figureee">0</p>
+                    <button style="background:none; border: none;"><i class="bi bi-dash-square-fill" onclick="minusss()"></i></button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="checko">
+
+            <h3 style= "font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; margin-bottom: 0px;  padding-bottom: 0px; text-align: center;">CARD SUMMARY</h3>
+            <div class="sub">
+                <p style= "font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: mediun; margin-top: 0px; padding-top: 0px;">SUBTOTAL</p>
+                <p style= "font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; color:blue;" id="subtotal">$0</p>
+            </div>
+            <button class="check" id="checkoutButton">CHECKOUT $0</button>
+        
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
